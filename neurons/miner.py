@@ -4,7 +4,6 @@ import bittensor as bt
 from nextplace.miner.ml.model_loader import ModelArgs
 from nextplace.miner.real_estate_miner import RealEstateMiner
 
-
 # Build the ArgumentParser using wallet, subtensor, logging, and validator permit enforcing
 def build_argument_parser() -> ArgumentParser:
     parser = ArgumentParser()  # create arg parser
